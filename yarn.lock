@@ -1265,7 +1265,7 @@
 
 "@snowdog/alpaca-ui@SnowdogApps/alpaca-ui#feature/update":
   version "0.5.0"
-  resolved "https://codeload.github.com/SnowdogApps/alpaca-ui/tar.gz/657ae2ef493121f5d110564d7ccd69f9b9b27f67"
+  resolved "https://codeload.github.com/SnowdogApps/alpaca-ui/tar.gz/5e6ce1e87db036d8d4dcbbf8bedee56a0a60562c"
   dependencies:
     "@tailwindcss/postcss7-compat" "^2.0.2"
     focus-visible "^5.0.2"

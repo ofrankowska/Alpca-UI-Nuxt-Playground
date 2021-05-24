@@ -1,3 +1,5 @@
+import { resolve } from 'path'
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -16,6 +18,14 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+
+  alias: {
+    '@utils': resolve(__dirname, './node_modules/@snowdog/alpaca-ui/utils'),
+    '@atoms': resolve(__dirname, './node_modules/@snowdog/alpaca-ui/src/atoms'),
+    '@molecules': resolve(__dirname, './node_modules/@snowdog/alpaca-ui/src/molecules'),
+    '@organisms': resolve(__dirname, './node_modules/@snowdog/alpaca-ui/src/organisms'),
+    '@mocks': resolve(__dirname, './node_modules/@snowdog/alpaca-ui/mocks')
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
